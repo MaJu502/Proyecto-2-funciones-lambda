@@ -92,8 +92,8 @@ suma
 @description
 @params 
 """
-print('suma con alpha > ', suma(uno)(dos)(alpha_lambda)(2))
-print('suma con beta > ', suma(uno)(dos)(beta_lambda)(2))
+print('suma con alpha > ', suma(dos)(dos)(alpha_lambda)(1))
+print('suma con beta > ', suma(dos)(dos)(beta_lambda)(1))
 print(' ')
 
 """
@@ -101,8 +101,8 @@ multiplicacion
 @description
 @params 
 """
-print('multiplicacion con alpha > ', multiplicacion(uno)(dos)(alpha_lambda)(3))
-print('multiplicacion con beta > ', multiplicacion(uno)(dos)(beta_lambda)(3))
+print('multiplicacion con alpha > ', multiplicacion(uno)(dos)(alpha_lambda)(0))
+print('multiplicacion con beta > ', multiplicacion(uno)(dos)(beta_lambda)(1))
 print(' ')
 
 
@@ -111,6 +111,6 @@ potencia
 @description
 @params 
 """
-print('potencia con alpha > ', potencia(dos)(tres)(alpha_lambda)(3))
-print('potencia con beta > ', potencia(dos)(tres)(beta_lambda)(3))
+print('potencia con alpha > ', potencia(dos)(tres)(alpha_lambda)(0))
+print('potencia con beta > ', potencia(dos)(tres)(beta_lambda)(1))
 print(' ')
