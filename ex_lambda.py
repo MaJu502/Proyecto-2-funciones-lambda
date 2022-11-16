@@ -56,8 +56,8 @@ uno
 @description
 @params 
 """
-print('uno con alpha > ', uno(alpha_lambda)(2))
-print('uno con beta > ', uno(beta_lambda)(2))
+print('uno con alpha > ', uno(alpha_lambda)(3))
+print('uno con beta > ', uno(beta_lambda)(3))
 print(' ')
 
 """
@@ -101,8 +101,8 @@ multiplicacion
 @description
 @params 
 """
-print('multiplicacion con alpha > ', multiplicacion(uno)(dos)(alpha_lambda)(0))
-print('multiplicacion con beta > ', multiplicacion(uno)(dos)(beta_lambda)(1))
+print('multiplicacion con alpha > ', multiplicacion(uno)(dos)(alpha_lambda)(2))
+print('multiplicacion con beta > ', multiplicacion(uno)(dos)(beta_lambda)(2))
 print(' ')
 
 
@@ -111,6 +111,6 @@ potencia
 @description
 @params 
 """
-print('potencia con alpha > ', potencia(dos)(tres)(alpha_lambda)(0))
-print('potencia con beta > ', potencia(dos)(tres)(beta_lambda)(1))
+print('potencia con alpha > ', potencia(dos)(tres)(alpha_lambda)(2))
+print('potencia con beta > ', potencia(dos)(tres)(beta_lambda)(2))
 print(' ')
